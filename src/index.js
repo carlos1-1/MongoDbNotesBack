@@ -18,7 +18,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/api', Routes);
+app.use( Routes);
 
 app.get("/", (req, res) => {
   res.send("Hello world");
